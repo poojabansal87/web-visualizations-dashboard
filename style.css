@@ -1,0 +1,18 @@
+body {
+    background-color: #ededed;
+}
+
+nav.navbar-default {
+    background-color: white;
+}
+
+.main-chart-image {
+    float: left;
+    width: 267px;
+    height: 178px;
+    margin-right: 15px;
+}
+
+.chart-container {
+    background-color: white;
+}
