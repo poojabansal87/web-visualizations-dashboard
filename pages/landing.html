@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Landing Page</title>
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="../style.css">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  
+</head>
+
+<body>  
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="landing.html">Latitude</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">          
+        <ul class="nav navbar-nav navbar-right">            
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plot <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="maximum-temperature.html">Maximum Temperature</a></li>
+              <li><a href="humidity.html">Humidity</a></li>
+              <li><a href="cloudiness.html">Cloudiness</a></li>
+              <li><a href="wind-speed.html">Wind Speed</a></li>
+            </ul>
+          </li>
+          <li><a href="comparison.html">Comparison</a></li>
+          <li><a href="data-table.html">Data</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 ">
+        <div class="chart-container">
+          <h1>Summary: Latitude vs. X</h1>
+          <hr class="line-separator">
+          <p>
+            <img src="../Resources/LatitudevsMaxTemperature.png" alt="Comparing Temperature wrt Latitude" 
+              class="main-chart-image"> 
+            <span class="chart-text"> 
+              The purpose of this chart is to analyze The purpose of this chart is to analyze The purpose of this chart is to analyze The purpose of this chart is to analyze The purpose of this chart is to analyzeThe purpose of this chart is to analyze The purpose of this chart is to analyzeThe purpose of this chart is to analyzeThe purpose of this chart is to analyze The purpose of this chart is to analyze The purpose of this chart is to analyze 
+              The purpose of this chart is to analyze The purpose of this chart is to analyze The purpose of this chart is to analyze The purpose of this chart is to analyze
+            </span>
+          </p>
+        </div>
+        
+      </div>
+      <div class="col-md-5 ">
+          <div class="chart-container">
+              <h2>Visualizations</h2>
+              <hr class="line-separator">
+
+              <div class="row">
+                <a href="maximum-temperature.html">
+                  <img src="../Resources/LatitudevsMaxTemperature.png" alt="Comparing Temperature wrt Latitude" 
+                    class="col-xs-3 col-sm-3 col-md-6 secondary-chart-image" /> 
+                </a>
+                <a href="humidity.html">
+                  <img src="../Resources/LatitudevsHumidity.png" alt="Comparing Humidity wrt Latitude" 
+                  class="col-xs-3 col-sm-3 col-md-6 secondary-chart-image"> 
+                </a>
+                <a href="cloudiness.html">
+                  <img src="../Resources/LatitudevsCloudiness.png" alt="Comparing Cloudiness wrt Latitude" 
+                  class="col-xs-3 col-sm-3 col-md-6 secondary-chart-image"> 
+                </a>
+                <a href="wind-speed.html">
+                  <img src="../Resources/LatitudevsWindSpeed.png" alt="Comparing WindSpeed wrt Latitude" 
+                  class="col-xs-3 col-sm-3 col-md-6 secondary-chart-image"> 
+                </a>
+              </div>
+          </div>
+          
+      </div>  
+    </div>  
+  </div>
+
+</body>
+
+</html>

@@ -12,7 +12,47 @@ nav.navbar-default {
     height: 178px;
     margin-right: 15px;
 }
+@media (max-width: 991.98px) { 
+    .main-chart-image {
+        width: 100%;
+        height: 100%;
+    } 
+}
+
+.secondary-chart-image {
+    float: left;
+   
+    /*margin-right: 15px;*/
+}
 
 .chart-container {
     background-color: white;
+    padding: 15px;
+}
+
+hr.line-separator{
+	border-top: 1px solid #ede3e3;
+}
+
+h1, h2, h3 {
+    color: #0BACA6;
+}
+
+.navbar-default .navbar-brand {
+    background-color: #0BACA6;
+    color:white;
+}
+
+.comparison {
+    background-color: white;
+}
+.comparison-container {
+    padding: 15px;
+}
+.compare-title {
+    text-align: center;
+    padding-top:15px;
+}
+.comparison-chart-image {
+    width: 100%;
 }
