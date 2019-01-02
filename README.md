@@ -3,7 +3,7 @@ Web Visualizations dashboard with HTML and CSS
 
 ## Lat't'itude
 
-In this exercise, I used the results from a previous exercise in which I analyzed how weather changes as you get closer to the equator. Using the images and dataset, I created a website in HTML and CSS using Bootstrap library. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
+In this project, I used the results from a previous exercise [here](https://github.com/poojabansal87/python-api-homework) in which I analyzed how weather changes as you get closer to the equator. Using the images and dataset, I created a website in HTML and CSS using Bootstrap library. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
 
 [Home Page](https://poojabansal87.github.io/web-visualizations-dashboard/pages/landing.html)
 
